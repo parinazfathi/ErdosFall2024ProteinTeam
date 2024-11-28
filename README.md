@@ -55,7 +55,7 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
 4. Extra Trees: tested for distinguishing nine types of cancer (Accuracy: 0.6096, F-1 score:0.6119, ROC AUC: 0.9029). This model also struggled with overfitting, similar to Random Forest, and faced computational challenges when dealing with large datasets.
 
-    **More details can be found in the notebook: Logistic & Random Forest Visualizations (num_features=50).ipynb**
+    **More details can be found in the notebook: RandomForest & ExtraTrees(pancancer_full)_UPDATED.ipynb**
 
 5. XGBoost: tested for distinguishing nine different types of cancer (Accuracy: 0.6528, F1 score: 0.65, ROC AUC: 0.92). 
 
