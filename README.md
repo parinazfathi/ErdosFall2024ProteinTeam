@@ -21,7 +21,7 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 [Pancancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10354027/): (Plasma profiles of 1463 proteins from more than 1400 cancer patients)
 
-[Health cohort](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.0c00641?casa_token=jmZDPVZOvegAAAAA%3ARv_oH-9X2AfOxbH826lXOOUjBr8xhagsxlecoH2jrUE_aaJUsM1bINZ_g4RxtZSuMI0B1D3th1VilHUy8w): (49 protein from 173 Southern German population-based cohort)
+[Healthy cohort](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.0c00641?casa_token=jmZDPVZOvegAAAAA%3ARv_oH-9X2AfOxbH826lXOOUjBr8xhagsxlecoH2jrUE_aaJUsM1bINZ_g4RxtZSuMI0B1D3th1VilHUy8w): (49 protein from 173 Southern German population-based cohort)
 
 [Hodgkin lymphoma](https://aacrjournals.org/cancerrescommun/article/4/7/1726/746418) (HL): (49 protein from 54 patients)
 
@@ -50,7 +50,7 @@ To distinguish between cancer and non-cancer samples, we combined all of the can
 
 
 **Part 2: Distinguishing Between Different Types of Cancer**
-Logistic Regression could distinguish between cancer and non-cancer samples with 100 % accuracy, so we then turned our focus to distinguishing between the different cancer types. The 49 proteins were not effective in distinguishing between the different cancer types, so we focused on the pancancer dataset, which has the levels of 1463 proteins for 1477 patients across a total of 12 different cancer types. To account for small sample sizes in some of the cancer types, several categories were combined into a combined "blood cancer" category, for a total of 9 different cancer types. 
+Logistic Regression could distinguish between cancer and non-cancer samples with 100 % accuracy, so we then turned our focus to distinguishing between the different cancer types. The 49 proteins were not effective in distinguishing between the different cancer types, so we focused on the pancancer dataset, which has the levels of 1463 proteins for 1477 patients across a total of 12 different cancer types. To account for small sample sizes in some of the cancer types, several categories were combined into a "blood cancer" category, for a total of 9 different cancer types. 
 
 The following models run and are trained using combined_df.csv and pancancer.csv.
 
@@ -76,6 +76,7 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
     **More details can be found in the notebook: Multinomial_imputedkNN.ipynb**
 
 **Part 3: Minimizing the Number of Features Needed to Distinguish Between Different Types of Cancer**
+Since Logistic Regression was the best performing model in distinguishing between the different cancer types, we then turned our focus to minimizing the number of features that would be needed to effectively distinguish between the different cancers.  
 
 
 ## Conclusion and Future Directions
