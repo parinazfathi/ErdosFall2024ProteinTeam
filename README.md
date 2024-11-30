@@ -33,7 +33,7 @@ PCA analysis: PCA_4files.ipynb
 
 Correlation: Correlation_Matrix.ipynb
 
-Swarmlpots: ExploratoryDataAnalysis_barandswarmplots.ipynb
+Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb] https://github.com/parinazfathi/ErdosFall2024ProteinTeam/ExploratoryDataAnalysis_barandswarmplots.ipynb
 
 Pairplot: Pairplots.ipynb
 
@@ -70,7 +70,7 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
 **Model performance:**
 
-Logistic Regression outperforms the other tested and optimized models, achieving the highest accuracy when the number of features used for modeling is minimized (features number = 200).
+Logistic Regression outperforms the other tested and optimized models, achieving the highest accuracy when the number of features used for modeling is minimized (feature number = 200).
 
 **Outlook:**
 
