@@ -63,16 +63,15 @@ The following models were run (taking combined_df.csv and pancancer.csv as the i
 3. Random Forest: tested for distinguishing nine types of cancer (Accuracy:0.6528, F-1 score:0.6536, ROC AUC: 0.9189). We also visually compare Random Forest and Logistic 
 Regression. Additionally, despite GridSearchCV and hyperparameter optimization, Random Forest exhibited significant overfitting(with high variance between training and testing sets), and the model ran too slowly with GridSearchCV. 
 
-4. Extra Trees: tested for distinguishing nine types of cancer (Accuracy: 0.6096, F-1 score:0.6119, ROC AUC: 0.9029). This model also struggled with overfitting, similar to Random Forest, and faced computational challenges when dealing with large datasets.
+4. [Extra Trees](RandomForest & ExtraTrees(pancancer_full)_UPDATED.ipynb): tested for distinguishing nine types of cancer (Accuracy: 0.6096, F-1 score:0.6119, ROC AUC: 0.9029). This model also struggled with overfitting, similar to Random Forest, and faced computational challenges when dealing with large datasets.
 
-    **More details can be found in the notebook: RandomForest & ExtraTrees(pancancer_full)_UPDATED.ipynb**
+    **More details can be found in the notebook: **
 
 5. [XGBoost](RunningAll4Models_UPDATED_PF5.ipynb): tested for distinguishing nine different types of cancer (Accuracy: 0.6528, F1 score: 0.65, ROC AUC: 0.92). 
 
 
-6. Multinomial regression: tested for distinguishing nine different types of cancer (Accuracy:0.60, F-1 score:0.61). 
+6. [Multinomial regression](Multinomial_imputedkNN.ipynb): tested for distinguishing nine different types of cancer (Accuracy:0.60, F-1 score:0.61). 
 
-    **More details can be found in the notebook: Multinomial_imputedkNN.ipynb**
 
 **Part 3: Minimizing the Number of Features Needed to Distinguish Between Different Types of Cancer**
 Since Logistic Regression was the best performing model in distinguishing between the different cancer types, we then turned our focus to minimizing the number of features that would be needed to effectively distinguish between the different cancers.  
