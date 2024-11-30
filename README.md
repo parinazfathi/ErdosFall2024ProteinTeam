@@ -33,7 +33,7 @@ PCA analysis: PCA_4files.ipynb
 
 Correlation: Correlation_Matrix.ipynb
 
-Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb] https://github.com/parinazfathi/ErdosFall2024ProteinTeam/ExploratoryDataAnalysis_barandswarmplots.ipynb
+Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb]https://github.com/parinazfathi/ErdosFall2024ProteinTeam/ExploratoryDataAnalysis_barandswarmplots.ipynb
 
 Pairplot: Pairplots.ipynb
 
