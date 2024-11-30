@@ -52,7 +52,7 @@ To distinguish between cancer and non-cancer samples, we combined all of the can
 **Part 2: Distinguishing Between Different Types of Cancer**
 Logistic Regression could distinguish between cancer and non-cancer samples with 100 % accuracy, so we then turned our focus to distinguishing between the different cancer types. The 49 proteins were not effective in distinguishing between the different cancer types, so we focused on the pancancer dataset, which has the levels of 1463 proteins for 1477 patients across a total of 12 different cancer types. To account for small sample sizes in some of the cancer types, several categories were combined into a "blood cancer" category, for a total of 9 different cancer types. 
 
-The following models run and are trained using combined_df.csv and pancancer.csv.
+The following models were run (taking combined_df.csv and pancancer.csv as the inputs):
 
 1. Logistic Regression: tested for distinguishing nine types of cancer with the best accuracy (Accuracy: 0.76, F1 score score:0.75, ROC AUC: 0.95) among the other models.
 
@@ -67,9 +67,8 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
     **More details can be found in the notebook: RandomForest & ExtraTrees(pancancer_full)_UPDATED.ipynb**
 
-5. XGBoost: tested for distinguishing nine different types of cancer (Accuracy: 0.6528, F1 score: 0.65, ROC AUC: 0.92). 
+5. [XGBoost](RunningAll4Models_UPDATED_PF5.ipynb): tested for distinguishing nine different types of cancer (Accuracy: 0.6528, F1 score: 0.65, ROC AUC: 0.92). 
 
-    **More details can be found in the notebook: RunningAll4Models_UPDATED_PF5.ipynb**
 
 6. Multinomial regression: tested for distinguishing nine different types of cancer (Accuracy:0.60, F-1 score:0.61). 
 
