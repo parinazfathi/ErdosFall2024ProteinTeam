@@ -43,12 +43,14 @@ Other visualization: ExploratoryAnalysis.ipynb
 ## Modeling Approach
 
 **Part 1: Distinguishing Between Cancer and Non-Cancer**
-To distinguish between cancer and non-cancer samples, we combined all of the cancer samples into one group and trained several models to distinguish them from the control samples:
-[Cancer vs. Non-Cancer](RunningAll4Models_PF2.ipynb)
-This file takes [Combined_df2.csv](Combined_df2.csv) as an input and trains Logistic Regression and k-Nearest Neighbor (kNN) models. Logistic Regression was able to distinguish between the cancer and non-cancer groups with 100 % accuracy
+
+To distinguish between cancer and non-cancer samples, we combined all of the cancer samples into one group and trained several models to use the 49 proteins to distinguish them from the control samples:
+
+[This file](RunningAll4Models_PF2.ipynb) takes [Combined_df2.csv](Combined_df2.csv) as an input and trains Logistic Regression and k-Nearest Neighbor (kNN) models. Logistic Regression was able to distinguish between the cancer and non-cancer groups with 100 % accuracy
 
 
 **Part 2: Distinguishing Between Different Types of Cancer**
+Logistic Regression could distinguish between cancer and non-cancer samples with 100 % accuracy, so we then turned our focus to distinguishing between the different cancer types. The 49 proteins were not effective in distinguishing between the different cancer types, so we focused on the pancancer dataset, which has the levels of 1463 proteins for 1477 patients across a total of 12 different cancer types. To account for small sample sizes in some of the cancer types, several categories were combined into a combined "blood cancer" category, for a total of 9 different cancer types. 
 
 The following models run and are trained using combined_df.csv and pancancer.csv.
 
