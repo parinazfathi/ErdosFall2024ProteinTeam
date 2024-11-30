@@ -42,6 +42,14 @@ Other visualization: ExploratoryAnalysis.ipynb
 
 ## Modeling Approach
 
+**Part 1: Distinguishing Between Cancer and Non-Cancer**
+To distinguish between cancer and non-cancer samples, we combined all of the cancer samples into one group and trained several models to distinguish them from the control samples:
+[Cancer vs. Non-Cancer](RunningAll4Models_PF2.ipynb)
+This file takes [Combined_df2.csv](Combined_df2.csv) as an input and trains Logistic Regression and k-Nearest Neighbor (kNN) models. Logistic Regression was able to distinguish between the cancer and non-cancer groups with 100 % accuracy
+
+
+**Part 2: Distinguishing Between Different Types of Cancer**
+
 The following models run and are trained using combined_df.csv and pancancer.csv.
 
 1. Logistic Regression: tested for distinguishing nine types of cancer with the best accuracy (Accuracy: 0.76, F1 score score:0.75, ROC AUC: 0.95) among the other models.
@@ -64,6 +72,8 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 6. Multinomial regression: tested for distinguishing nine different types of cancer (Accuracy:0.60, F-1 score:0.61). 
 
     **More details can be found in the notebook: Multinomial_imputedkNN.ipynb**
+
+**Part 3: Minimizing the Number of Features Needed to Distinguish Between Different Types of Cancer**
 
 
 ## Conclusion and Future Directions
