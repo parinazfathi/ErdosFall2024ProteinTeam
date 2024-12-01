@@ -67,7 +67,7 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
 5. [XGBoost](RunningAll4Models_UPDATED_PF5.ipynb): tested for distinguishing nine different types of cancer (Accuracy: 0.6528, F1 score: 0.65, ROC AUC: 0.92). 
 
-6. [Multinomial regression](Modeling_Approaches/Objective_2_TypeOfCancer/Multinomial_imputedkNN_updated.ipynb): tested for distinguishing nine different types of cancer (Accuracy:0.60, F-1 score:0.61). 
+6. [Multinomial regression](Modeling_Approaches/Objective_2_TypeOfCancer/Multinomial_imputedkNN_updated.ipynb): tested for distinguishing nine different types of cancer (Accuracy:0.6089, F-1 score:0.6105, ROC AUC: 0.9293). 
 
 
 **Objective 3: Minimizing the Number of Features Needed to Distinguish Between Different Types of Cancer**
