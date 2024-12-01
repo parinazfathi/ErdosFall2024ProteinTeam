@@ -72,8 +72,9 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
 **Objective 3: Minimizing the Number of Features Needed to Distinguish Between Different Types of Cancer**
 Since Logistic Regression was the best performing model in distinguishing between the different cancer types, we then turned our focus to minimizing the number of features that would be needed to effectively distinguish between the different cancers. 
-Comparison for Logistic Regression and Random Forest to see effects of number of features on F-1 scores and ROC-AUC.
+Here is comparison for Logistic Regression and Random Forest to see effects of number of features on F-1 scores and ROC-AUC.
 
+<img width="450" alt="F-1Scores" src="F-1Scores.png">  <img width="450" alt="ROC_AUC" src="F-1Scores.png">
 
 
 ## Conclusion and Future Directions
