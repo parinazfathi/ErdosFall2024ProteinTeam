@@ -65,16 +65,15 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
 4. [Extra Trees](RandomForest&ExtraTrees(pancancer_dataset).ipynb): tested for distinguishing nine types of cancer (Accuracy: 0.6096, F-1 score:0.6119, ROC AUC: 0.9029). This model also struggled with overfitting, similar to Random Forest, and faced computational challenges when dealing with large datasets.
 
-    **More details can be found in the notebook: RandomForest & ExtraTrees(pancancer_full)_UPDATED.ipynb**
-
 5. [XGBoost](RunningAll4Models_UPDATED_PF5.ipynb): tested for distinguishing nine different types of cancer (Accuracy: 0.6528, F1 score: 0.65, ROC AUC: 0.92). 
-
 
 6. [Multinomial regression](Multinomial_imputedkNN.ipynb): tested for distinguishing nine different types of cancer (Accuracy:0.60, F-1 score:0.61). 
 
 
 **Objective 3: Minimizing the Number of Features Needed to Distinguish Between Different Types of Cancer**
-Since Logistic Regression was the best performing model in distinguishing between the different cancer types, we then turned our focus to minimizing the number of features that would be needed to effectively distinguish between the different cancers.  
+Since Logistic Regression was the best performing model in distinguishing between the different cancer types, we then turned our focus to minimizing the number of features that would be needed to effectively distinguish between the different cancers. 
+Comparison for Logistic Regression and Random Forest to see effects of number of features on F-1 scores and ROC-AUC.
+<img width="494" alt="Screenshot 2024-11-23 at 1 15 51 PM" src="https://github.com/user-attachments/assets/5ecb2bed-8a4b-4713-a275-e580ca416d91"> <img width="504" alt="Screenshot 2024-11-23 at 1 15 59 PM" src="https://github.com/user-attachments/assets/09246d7e-f993-4454-ae7d-e65dafaa7da9">
 
 
 ## Conclusion and Future Directions
