@@ -8,7 +8,7 @@
 
 Blood protein profiles serve as a rich source of information about physiological and pathological states. Proteins in the blood originate from various tissues and reflect processes such as inflammation, immune responses, and metabolism. Research shows that the blood proteome differs significantly between healthy individuals and those with diseases such as cancer, cardiovascular disease, diabetes, and autoimmune disorders. Establishing baseline profiles for healthy individuals and identifying deviations associated with diseases can enable early diagnosis, prognostic assessment, and therapeutic monitoring.
 
-## Combine Data Sets & Exploratory Data Analysis
+## Combine Data Sets & Exploratory Data Analysis 
 
 All datasets utilized Olink technology for profiling the plasma proteome of the subjects. 
 We first utilize a published plasma proteome dataset from healthy individuals with the goal of training a model capable of detecting abnormalities in the plasma proteome. The reason is based on the observation that many studies have demonstrated that blood protein profiles can discriminate between health and disease states. 
