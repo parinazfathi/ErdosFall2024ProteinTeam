@@ -20,21 +20,21 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 [Pancancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10354027/): (Plasma profiles of 1463 proteins from more than 1400 cancer patients)
 
-[Healthy cohort](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.0c00641?casa_token=jmZDPVZOvegAAAAA%3ARv_oH-9X2AfOxbH826lXOOUjBr8xhagsxlecoH2jrUE_aaJUsM1bINZ_g4RxtZSuMI0B1D3th1VilHUy8w): (49 protein from 173 Southern German population-based cohort)
+[Healthy cohort](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.0c00641?casa_token=jmZDPVZOvegAAAAA%3ARv_oH-9X2AfOxbH826lXOOUjBr8xhagsxlecoH2jrUE_aaJUsM1bINZ_g4RxtZSuMI0B1D3th1VilHUy8w): (728 proteins from 173 patients in a Southern German population-based cohort)
 
-[Hodgkin lymphoma](https://aacrjournals.org/cancerrescommun/article/4/7/1726/746418) (HL): (49 protein from 54 patients)
+[Hodgkin's lymphoma](https://aacrjournals.org/cancerrescommun/article/4/7/1726/746418) (HL): (92 proteins in 167 samples collected from 54 patients)
 
-[Esophageal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836376/): (49 protein from 91 patients)
+[Esophageal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836376/): (92 proteins from 91 patients)
 
 **Exploratory Data Analysis can be found in the notebooks:**
 
 PCA analysis: [PCA.ipynb](DataCleaning_and_ExploratoryAnalysis/PCA.ipynb)
 
-Correlation: [Correlation_Matrix.ipynb](DataCleaning_and_ExploratoryAnalysis/Correlation_Matrix.ipynb)
+Correlation Matrices: [Correlation_Matrix.ipynb](DataCleaning_and_ExploratoryAnalysis/Correlation_Matrix.ipynb)
 
 Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](DataCleaning_and_ExploratoryAnalysis/ExploratoryDataAnalysis_barandswarmplots.ipynb)
 
-Pairplot: [Pairplots.ipynb](DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
+Pairplots: [Pairplots.ipynb](DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
 
 
 ## Modeling Approach
