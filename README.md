@@ -10,12 +10,11 @@ Blood protein profiles serve as a rich source of information about physiological
 
 ## Combine Data Sets & Exploratory Data Analysis 
 
-All datasets utilized Olink technology for profiling the plasma proteome of the subjects. 
-We first utilize a published plasma proteome dataset from healthy individuals with the goal of training a model capable of detecting abnormalities in the plasma proteome. The reason is based on the observation that many studies have demonstrated that blood protein profiles can discriminate between health and disease states. 
+All datasets utilized Olink technology for profiling the blood plasma proteome of the subjects. This method generates variables in the form of NPX values, representing the relative abundance indices of specific proteins in individual patients or healthy subjects. 
 
-We also combined the multiple cancer datasets for enhanced predictive modeling. This method generates variables in the form of NPX values, representing the relative abundance indices of specific proteins in individual patients or healthy subjects. 
+We first compared a published blood plasma proteome dataset from a Southern German population-representative cohort (used as our control), with multiple combined cancer datasets, with the goal of training a model capable of detecting abnormalities in the plasma proteome. This was because many studies have demonstrated that blood protein profiles can discriminate between health and disease states.
 
-For machine learning modeling, the primary predictor variable was the disease status—categorized as either cancer or healthy—and, in some cases, the specific cancer type. We visualized the dataset using various techniques, including principal component analysis, correlation matrix interactive heatmap, bar plot, Swarm plot, pair plot, etc., to investigate the relationship between cancer type and expression of each tested protein. 
+For machine learning modeling, the primary predictor variable was the disease status—categorized as either cancer or control—and, in some cases, the specific cancer type. In exploratory data analysis, we visualized the dataset using various techniques, including principal component analysis, correlation matrix interactive heatmap, bar plot, Swarm plots, and pair plots to investigate the relationship between cancer type and expression of each tested protein. 
 
 **Published datasets include:**
 
