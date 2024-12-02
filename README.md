@@ -44,7 +44,7 @@ Pairplot: [Pairplots.ipynb](DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb
 
 To distinguish between cancer and non-cancer samples, we combined all of the cancer samples into one group and trained several models to use the 49 proteins to distinguish them from the control samples:
 
-[This file](RunningAll4Models_PF2.ipynb) takes [Combined_df2.csv](DataCleaning_and_ExploratoryAnalysis/Combined_df2.csv) as an input and trains Logistic Regression and k-Nearest Neighbor (kNN) models. Logistic Regression was able to distinguish between the cancer and non-cancer groups with 100 % accuracy
+[This file](Modeling_Approaches/Objective_1_CancerVsNoncancer.ipynb) takes [Combined_df2.csv](DataCleaning_and_ExploratoryAnalysis/Combined_df2.csv) as an input and trains Logistic Regression and k-Nearest Neighbor (kNN) models. Logistic Regression was able to distinguish between the cancer and non-cancer groups with 100 % accuracy
 
 
 **Objective 2: Distinguishing Between Different Types of Cancer**
