@@ -64,7 +64,7 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
 4. [Extra Trees](Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_RandomForest&ExtraTrees.ipynb): tested for distinguishing nine types of cancer (Accuracy: 0.6096, F-1 score:0.6119, ROC AUC: 0.9029). This model also struggled with overfitting, similar to Random Forest, and faced computational challenges when dealing with large datasets.
 
-5. [XGBoost](Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_XGBoost.ipynb): tested for distinguishing nine different types of cancer (Accuracy: 0.6528, F1 score: 0.65, ROC AUC: 0.92). 
+5. [XGBoost](Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_XGBoost.ipynb): tested for distinguishing nine different types of cancer (Accuracy: 0.7138, F1 score: 0.7123, ROC AUC: 0.9471). 
 
 6. [Multinomial regression](https://github.com/parinazfathi/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_2_TypeOfCancer/Multinomial_imputedkNN_updated.ipynb): tested for distinguishing nine different types of cancer (Accuracy: 0.5932, F-1 score: 0.5920, ROC AUC: 0.9122). 
 
