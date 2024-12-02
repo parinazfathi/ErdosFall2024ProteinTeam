@@ -37,8 +37,6 @@ Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](DataCl
 
 Pairplot: [Pairplots.ipynb](DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
 
-Other visualization: [ExploratoryAnalysis.ipynb](DataCleaning_and_ExploratoryAnalysis/ExploratoryAnalysis.ipynb)
-
 
 ## Modeling Approach
 
