@@ -31,13 +31,13 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 PCA analysis: PCA.ipynb
 
-Correlation: Correlation_Matrix.ipynb
+Correlation: [Correlation_Matrix.ipynb](DataCleaning_and_ExploratoryAnalysis/Correlation_Matrix.ipynb)
 
-Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](ExploratoryDataAnalysis_barandswarmplots.ipynb)
+Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](DataCleaning_and_ExploratoryAnalysis/ExploratoryDataAnalysis_barandswarmplots.ipynb)
 
-Pairplot: Pairplots.ipynb
+Pairplot: [Pairplots.ipynb](DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
 
-Other visualization: ExploratoryAnalysis.ipynb
+Other visualization: [ExploratoryAnalysis.ipynb](DataCleaning_and_ExploratoryAnalysis/ExploratoryAnalysis.ipynb)
 
 
 ## Modeling Approach
