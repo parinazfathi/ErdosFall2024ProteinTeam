@@ -43,6 +43,7 @@ Other visualization: ExploratoryAnalysis.ipynb
 ## Modeling Approach
 
 **Objective 1: Distinguishing Between Cancer and Non-Cancer**
+[Logistic Regression and KNN](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_1_CancerVsNoncancer/Objective1_LogisticandKNN.ipynb)
 
 To distinguish between cancer and non-cancer samples, we combined all of the cancer samples into one group and trained several models to use the 49 proteins to distinguish them from the control samples:
 
