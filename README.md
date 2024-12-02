@@ -75,17 +75,17 @@ Here is a [comparison](Modeling_Approaches/Objective_2_TypeOfCancer/Logistic&Ran
 
 <img width="400" alt="F-1Scores" src="Modeling_Approaches/Objective_3_MinimizeNumberofFeatures/Scores_F-1.png">  <img width="400" alt="ROC_AUC" src="Modeling_Approaches/Objective_3_MinimizeNumberofFeatures/ROC_AUC.png">
 
-We then [compared](Modeling_Approaches/Objective_3/Objective3_Logistic.ipynb) the use of all 1463 proteins with the use of the 200 best proteins (determined by SelectKBest) for Logistic Regression. We observed a decrease in model performance () but this decrease in performance may be worth the significant reduction in the number of proteins that would need to be tested. 
+We then [compared](Modeling_Approaches/Objective_3/Objective3_Logistic.ipynb) the use of all 1463 proteins with the use of the 200 best proteins (determined by SelectKBest) for Logistic Regression. We observed a decrease in model performance (Accuracy fell from 0.7654 to 0.7197; ROC AUC fell from 0.9625 to 0.9461; F-1 score fell from 0.7662 to 0.7208) but this decrease in performance may be worth the significant reduction in the number of proteins that would need to be tested for each patient.  
 
 ## Conclusion and Future Directions
 
 **Model performance:**
 
-Logistic Regression outperforms the other tested and optimized models, achieving the highest accuracy when the number of features used for modeling is minimized (feature number = 200).
+Logistic Regression outperforms the other tested and optimized models for both Cancer vs. Control classification and cancer type classification. Logistic regression maintains relatively high performance when the number of features used for modeling is minimized to just the 200 k-Best proteins.
 
 **Outlook:**
 
-While combining datasets offers numerous advantages, challenges such as batch effects, variability in sample collection, and differences in assay platforms must be addressed. Although we used Olink technology in this study, many other datasets employ different methods for protein measurement. Testing our model's performance on datasets collected using alternative methods could provide valuable insights into its robustness and generalizability.
+While combining datasets offers numerous advantages, challenges such as batch effects, variability in sample collection, and differences in assay platforms must be addressed. Although we used Olink technology in this study, many other datasets employ different methods for protein measurement. Testing our model's performance on other datasets, including datasets with other cancer types or that were collected using alternative methods could provide valuable insights into its robustness and generalizability.
 
 
 
