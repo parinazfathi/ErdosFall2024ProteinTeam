@@ -29,7 +29,7 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 **Exploratory Data Analysis can be found in the notebooks:**
 
-PCA analysis: PCA.ipynb
+PCA analysis: [PCA.ipynb](DataCleaning_and_ExploratoryAnalysis/PCA.ipynb)
 
 Correlation: [Correlation_Matrix.ipynb](DataCleaning_and_ExploratoryAnalysis/Correlation_Matrix.ipynb)
 
