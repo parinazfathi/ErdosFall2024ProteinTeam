@@ -26,6 +26,8 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 [Esophageal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836376/): (92 proteins from 91 patients)
 
+There were 49 proteins in common across these 4 datasets
+
 **Exploratory Data Analysis can be found in the notebooks:**
 
 PCA analysis: [PCA.ipynb](DataCleaning_and_ExploratoryAnalysis/PCA.ipynb)
