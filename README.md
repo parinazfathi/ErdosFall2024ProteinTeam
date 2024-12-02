@@ -35,7 +35,7 @@ Correlation: [Correlation_Matrix.ipynb](https://github.com/simeiyunliu/ErdosFall
 
 Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](ExploratoryDataAnalysis_barandswarmplots.ipynb)
 
-Pairplot: Pairplots.ipynb
+Pairplot: [Pairplots.ipynb](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
 
 Other visualization: ExploratoryAnalysis.ipynb
 
