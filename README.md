@@ -26,7 +26,7 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 [Esophageal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836376/): (92 proteins from 91 patients)
 
-There were 49 proteins in common across these 4 datasets
+There were [49 proteins in common](DataCleaning_and_ExploratoryAnalysis/ExploratoryAnalysis.ipynb) across these 4 datasets. The data for the 49 proteins in common across the 4 datasets was [combined](DataCleaning_and_ExploratoryAnalysis) into [Combined_df2.csv](DataCleaning_and_ExploratoryAnalysis/Combined_df2.csv). The data for the 1463 proteins from the Pancancer dataset was [compiled](DataCleaning_and_ExploratoryAnalysis) into [pancancer.csv](DataCleaning_and_ExploratoryAnalysis/pancancer.csv). 
 
 **Exploratory Data Analysis can be found in the notebooks:**
 
@@ -75,7 +75,7 @@ Here is a [comparison](Modeling_Approaches/Objective_2_TypeOfCancer/Logistic&Ran
 
 <img width="400" alt="F-1Scores" src="Modeling_Approaches/Objective_3_MinimizeNumberofFeatures/Scores_F-1.png">  <img width="400" alt="ROC_AUC" src="Modeling_Approaches/Objective_3_MinimizeNumberofFeatures/ROC_AUC.png">
 
-We then [compared](Modeling_Approaches/Objective_3/Objective3_Logistic.ipynb) the use of all 1463 proteins with the use of the 200 best proteins (determined by SelectKBest) for Logistic Regression. We observed a decrease in model performance (Accuracy fell from 0.7654 to 0.7197; ROC AUC fell from 0.9625 to 0.9461; F-1 score fell from 0.7662 to 0.7208) but this decrease in performance may be worth the significant reduction in the number of proteins that would need to be tested for each patient.  
+We then [compared](Modeling_Approaches/Objective_3/Objective3_Logistic.ipynb) the use of all 1463 proteins with the use of the 200 best proteins (determined by SelectKBest) for Logistic Regression. We observed a decrease in model performance (Accuracy fell from 0.7567 to 0.7331; ROC AUC fell from 0.9596 to 0.9486; F-1 score fell from 0.7519 to 0.7324) but these small decreases in performance may be worth the significant reduction in the number of proteins that would need to be tested for each patient.  
 
 ## Conclusion and Future Directions
 
