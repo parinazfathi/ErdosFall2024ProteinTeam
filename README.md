@@ -43,21 +43,21 @@ Other visualization: ExploratoryAnalysis.ipynb
 ## Modeling Approach
 
 **Objective 1: Distinguishing Between Cancer and Non-Cancer**
-[Logistic Regression and KNN](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_1_CancerVsNoncancer/Objective1_LogisticandKNN.ipynb)
 
 To distinguish between cancer and non-cancer samples, we combined all of the cancer samples into one group and trained several models to use the 49 proteins to distinguish them from the control samples:
 
-[This file](RunningAll4Models_PF2.ipynb) takes [Combined_df2.csv](Combined_df2.csv) as an input and trains Logistic Regression and k-Nearest Neighbor (kNN) models. Logistic Regression was able to distinguish between the cancer and non-cancer groups with 100 % accuracy
+[This file]([RunningAll4Models_PF2.ipynb](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_1_CancerVsNoncancer/Objective1_LogisticandKNN.ipynb) takes [Combined_df2.csv](Combined_df2.csv) as an input and trains Logistic Regression and k-Nearest Neighbor (kNN) models. Logistic Regression was able to distinguish between the cancer and non-cancer groups with 100 % accuracy
 
 
 **Objective 2: Distinguishing Between Different Types of Cancer**
+
 Logistic Regression could distinguish between cancer and non-cancer samples with 100 % accuracy, so we then turned our focus to distinguishing between the different cancer types. The 49 proteins were not effective in distinguishing between the different cancer types, so we focused on the pancancer dataset, which has the levels of 1463 proteins for 1477 patients across a total of 12 different cancer types. To account for small sample sizes in some of the cancer types, several categories were combined into a "blood cancer" category, for a total of 9 different cancer types. 
 
 The following models were run (taking combined_df.csv and pancancer.csv as the inputs):
 
-1. Logistic Regression: tested for distinguishing nine types of cancer with the best accuracy (Accuracy: 0.76, F1 score score:0.75, ROC AUC: 0.95) among the other models.
+1. [Logistic Regression](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_LogisticRegression%26KNN.ipynb): tested for distinguishing nine types of cancer with the best accuracy (Accuracy: 0.76, F1 score score:0.75, ROC AUC: 0.95) among the other models.
 
-2. K-Nearest Neighbors (KNN): tested for distinguishing nine types of cancer (Accuracy: 0.39, F1 score: 0.40, ROC AUC: 0.82). Multiple K has been tested to improve the performance.
+2. [K-Nearest Neighbors (KNN)](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_LogisticRegression%26KNN.ipynb): tested for distinguishing nine types of cancer (Accuracy: 0.39, F1 score: 0.40, ROC AUC: 0.82). Multiple K has been tested to improve the performance.
 
     **More details can be found in the notebook: Logistic Regression & KNN_pancancer_bloodcancer combined_May.ipynb**
 
@@ -72,6 +72,7 @@ Regression. Additionally, despite GridSearchCV and hyperparameter optimization, 
 
 
 **Objective 3: Minimizing the Number of Features Needed to Distinguish Between Different Types of Cancer**
+
 Since Logistic Regression was the best performing model in distinguishing between the different cancer types, we then turned our focus to minimizing the number of features that would be needed to effectively distinguish between the different cancers. 
 Here is comparison for Logistic Regression and Random Forest to see effects of number of features on F-1 scores and ROC-AUC.
 
