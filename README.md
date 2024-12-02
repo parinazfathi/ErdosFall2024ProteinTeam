@@ -12,7 +12,7 @@ Blood protein profiles serve as a rich source of information about physiological
 
 All datasets utilized Olink technology for profiling the blood plasma proteome of the subjects. This method generates variables in the form of NPX values, representing the relative abundance indices of specific proteins in individual patients or healthy subjects. 
 
-We first compared a published blood plasma proteome dataset from a Southern German population-representative cohort (used as our control), with multiple combined cancer datasets, with the goal of training a model capable of detecting abnormalities in the plasma proteome. This was because many studies have demonstrated that blood protein profiles can discriminate between health and disease states.
+We first compared a published blood plasma proteome dataset from a Southern German population-representative cohort (used as our control) with multiple combined cancer datasets, with the goal of training a model capable of detecting abnormalities in the plasma proteome. This was because many studies have demonstrated that blood protein profiles can discriminate between health and disease states.
 
 For machine learning modeling, the primary predictor variable was the disease status—categorized as either cancer or control—and, in some cases, the specific cancer type. In exploratory data analysis, we visualized the dataset using various techniques, including principal component analysis, correlation matrix interactive heatmap, bar plot, Swarm plots, and pair plots to investigate the relationship between cancer type and expression of each tested protein. 
 
