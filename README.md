@@ -26,7 +26,7 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 [Esophageal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836376/): (92 proteins from 91 patients)
 
-There were 49 proteins in common across these 4 datasets. The data for the 49 proteins in common across the 4 datasets was [combined](DataCleaning_and_ExploratoryAnalysis) into [Combined_df2.csv](DataCleaning_and_ExploratoryAnalysis/Combined_df2.csv). The data for the 1463 proteins from the Pancancer dataset was [compiled](DataCleaning_and_ExploratoryAnalysis) into [pancancer.csv](DataCleaning_and_ExploratoryAnalysis/pancancer.csv). 
+There were [49 proteins in common](DataCleaning_and_ExploratoryAnalysis/ExploratoryAnalysis.ipynb) across these 4 datasets. The data for the 49 proteins in common across the 4 datasets was [combined](DataCleaning_and_ExploratoryAnalysis) into [Combined_df2.csv](DataCleaning_and_ExploratoryAnalysis/Combined_df2.csv). The data for the 1463 proteins from the Pancancer dataset was [compiled](DataCleaning_and_ExploratoryAnalysis) into [pancancer.csv](DataCleaning_and_ExploratoryAnalysis/pancancer.csv). 
 
 **Exploratory Data Analysis can be found in the notebooks:**
 
