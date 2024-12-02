@@ -31,7 +31,7 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 PCA analysis: [PCA.ipynb](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/DataCleaning_and_ExploratoryAnalysis/PCA.ipynb)
 
-Correlation: Correlation_Matrix.ipynb
+Correlation: [Correlation_Matrix.ipynb](https://github.com/simeiyunliu/ErdosFall2024ProteinTeam/blob/main/DataCleaning_and_ExploratoryAnalysis/Correlation_Matrix.ipynb)
 
 Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](ExploratoryDataAnalysis_barandswarmplots.ipynb)
 
