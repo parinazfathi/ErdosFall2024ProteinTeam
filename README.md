@@ -26,7 +26,7 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 [Esophageal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836376/): (92 proteins from 91 patients)
 
-There were [49 proteins in common](DataCleaning_and_ExploratoryAnalysis/ExploratoryAnalysis.ipynb) across these 4 datasets. The data for the 49 proteins in common across the 4 datasets was [combined](DataCleaning_and_ExploratoryAnalysis/Processing_4filescombined.ipynb) into [Combined_df2.csv](DataCleaning_and_ExploratoryAnalysis/Combined_df2.csv). The data for the 1463 proteins from the Pancancer dataset was [compiled](DataCleaning_and_ExploratoryAnalysis/pancancer.ipynb) into [pancancer.csv](DataCleaning_and_ExploratoryAnalysis/pancancer.csv). 
+There were [49 proteins in common](DataCleaning_and_ExploratoryAnalysis/ExploratoryAnalysis.ipynb) across these 4 datasets. The data for the 49 proteins in common across the 4 datasets was [combined](DataCleaning_and_ExploratoryAnalysis/Processing_4filescombined.ipynb) into [Combined_df2.csv](DataCleaning_and_ExploratoryAnalysis/Combined_df2.csv). The data for the 1463 proteins from the Pancancer dataset was [compiled](DataCleaning_and_ExploratoryAnalysis/pancancer.ipynb) into [pancancer.csv](DataCleaning_and_ExploratoryAnalysis/LinkForPancancer.csvFile.ipynb). 
 
 **Exploratory Data Analysis can be found in the notebooks:**
 
@@ -51,7 +51,7 @@ To distinguish between cancer and non-cancer samples, we combined all of the can
 **Objective 2: Distinguishing Between Different Types of Cancer**
 Logistic Regression could distinguish between cancer and non-cancer samples with 100 % accuracy, so we then turned our focus to distinguishing between the different cancer types. The 49 proteins were not effective in distinguishing between the different cancer types, so we focused on the pancancer dataset, which has the levels of 1463 proteins for 1477 patients across a total of 12 different cancer types. To account for small sample sizes in some of the cancer types, several categories were combined into a "blood cancer" category, for a total of 9 different cancer types. 
 
-The following models were run (taking [combined_df.csv](DataCleaning_and_ExploratoryAnalysis/combined_df.csv) and [pancancer.csv](DataCleaning_and_ExploratoryAnalysis/pancancer.csv) as the inputs):
+The following models were run (taking [combined_df.csv](DataCleaning_and_ExploratoryAnalysis/combined_df.csv) and [pancancer.csv](DataCleaning_and_ExploratoryAnalysis/LinkForPancancer.csvFile.ipynb) as the inputs):
 
 1. [Logistic Regression](https://github.com/parinazfathi/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_LogisticRegression%26KNN.ipynb): tested for distinguishing nine types of cancer with the best accuracy (Accuracy: 0.76, F1 score score:0.75, ROC AUC: 0.95) among the other models.
 
