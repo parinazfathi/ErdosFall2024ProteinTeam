@@ -22,7 +22,7 @@ For machine learning modeling, the primary predictor variable was the disease st
 
 [Healthy cohort](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.0c00641?casa_token=jmZDPVZOvegAAAAA%3ARv_oH-9X2AfOxbH826lXOOUjBr8xhagsxlecoH2jrUE_aaJUsM1bINZ_g4RxtZSuMI0B1D3th1VilHUy8w): (728 proteins from 173 patients in a Southern German population-based cohort)
 
-[Hodgkin's lymphoma](https://aacrjournals.org/cancerrescommun/article/4/7/1726/746418) (HL): (92 proteins in 167 samples collected from 54 patients)
+[Hodgkin's lymphoma](https://aacrjournals.org/cancerrescommun/article/4/7/1726/746418): (92 proteins in 167 samples collected from 54 patients)
 
 [Esophageal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836376/): (92 proteins from 91 patients)
 
