@@ -39,7 +39,7 @@ Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](DataCl
 Pairplots: [Pairplots.ipynb](https://github.com/parinazfathi/ErdosFall2024ProteinTeam/blob/main/DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
 
 
-## Modeling Approach
+## Modeling Approach 
 
 **Objective 1: Distinguishing Between Cancer and Non-Cancer**
 
