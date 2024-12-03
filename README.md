@@ -57,8 +57,6 @@ The following models were run (taking [combined_df.csv](DataCleaning_and_Explora
 
 2. [K-Nearest Neighbors (KNN)](https://github.com/parinazfathi/ErdosFall2024ProteinTeam/blob/main/Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_LogisticRegression%26KNN.ipynb): tested for distinguishing nine types of cancer (Accuracy: 0.39, F1 score: 0.40, ROC AUC: 0.82). Multiple K has been tested to improve the performance.
 
-    **More details can be found in the notebook: Logistic Regression & KNN_pancancer_bloodcancer combined_May.ipynb**
-
 3. [Random Forest](Modeling_Approaches/Objective_2_TypeOfCancer/Objective2_RandomForest&ExtraTrees.ipynb): tested for distinguishing nine types of cancer (Accuracy:0.6528, F-1 score:0.6536, ROC AUC: 0.9189). We also visually compare Random Forest and Logistic 
 Regression. Additionally, despite GridSearchCV and hyperparameter optimization, Random Forest exhibited significant overfitting(with high variance between training and testing sets), and the model ran too slowly with GridSearchCV. 
 
