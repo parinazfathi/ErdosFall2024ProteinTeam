@@ -30,13 +30,13 @@ There were [49 proteins in common](DataCleaning_and_ExploratoryAnalysis/Explorat
 
 **Exploratory Data Analysis can be found in the notebooks:**
 
-PCA analysis: [PCA.ipynb](DataCleaning_and_ExploratoryAnalysis/PCA.ipynb)
+PCA analysis: [PCA.ipynb](https://github.com/parinazfathi/ErdosFall2024ProteinTeam/blob/main/DataCleaning_and_ExploratoryAnalysis/PCA.ipynb)
 
 Correlation Matrices: [Correlation_Matrix.ipynb](DataCleaning_and_ExploratoryAnalysis/Correlation_Matrix.ipynb)
 
 Swarm plots & Bar plots: [ExploratoryDataAnalysis_barandswarmplots.ipynb](DataCleaning_and_ExploratoryAnalysis/ExploratoryDataAnalysis_barandswarmplots.ipynb)
 
-Pairplots: [Pairplots.ipynb](DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
+Pairplots: [Pairplots.ipynb](https://github.com/parinazfathi/ErdosFall2024ProteinTeam/blob/main/DataCleaning_and_ExploratoryAnalysis/Pairplots.ipynb)
 
 
 ## Modeling Approach
